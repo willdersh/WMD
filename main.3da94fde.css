@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,700|Rubik:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*!
@@ -310,7 +310,7 @@ html {
 }
 
 body {
-    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-family: Poppins, Lato, Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #333;
@@ -423,7 +423,7 @@ h4,
 h5,
 h6 {
     font-family: Rubik, Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.1;
     color: #000
 }
@@ -980,7 +980,6 @@ pre code {
 .col-lg-9,
 .col-lg-10,
 .col-lg-11,
-.col-lg-12,
 .col-md-1,
 .col-md-2,
 .col-md-3,
@@ -1019,6 +1018,15 @@ pre code {
 .col-xs-12 {
     position: relative;
     min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.col-lg-12  {
+    position: relative;
+    min-height: 10px;
+    margin-top: 170px;
+    margin-left: -20px;
     padding-left: 15px;
     padding-right: 15px
 }
@@ -5589,6 +5597,10 @@ button.close {
     padding: 80px 0
 }
 
+.section-container2 {
+    padding: 40px 0
+}
+
 .section-container-spacer {
     margin-bottom: 60px
 }
@@ -5625,6 +5637,28 @@ button.close {
     }
 }
 
+.hero-full-container2 {
+    height: 75vh;
+    position: relative
+}
+
+@media (min-width:992px) {
+    .hero-full-container2 {
+        border: solid #fff;
+        border-width: 50px 0px
+    }
+}
+
+.hero-full-container2 .hero-full-wrapper .text-content {
+    padding-top: 30%;
+}
+
+@media (min-width:992px) {
+    .hero-full-container2 .hero-full-wrapper .text-content {
+        padding-top: 10%
+    }
+}
+
 .overlay-gradient {
     position: absolute;
     top: 0;
@@ -5648,7 +5682,7 @@ blockquote small {
 }
 
 blockquote.large-spacing {
-    padding: 60px 0
+    padding: 20px 0
 }
 
 .fa-icon {
