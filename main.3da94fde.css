@@ -82,8 +82,8 @@ h1 {
 }
 
 mark {
-    background: #ff0;
-    color: #000
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
 }
 
 small {
@@ -107,7 +107,8 @@ sub {
 }
 
 img {
-    border: 0
+    float: left;
+    border: 0;
 }
 
 svg:not(:root) {
@@ -312,6 +313,14 @@ html {
 body {
     font-family: Poppins, Lato, Helvetica, Arial, sans-serif;
     font-size: 16px;
+    line-height: 2;
+    color: #333;
+    background-color: #fff
+}
+
+body2 {
+    font-family: Poppins, Lato, Helvetica, Arial, sans-serif;
+    font-size: 14px;
     line-height: 2;
     color: #333;
     background-color: #fff
@@ -566,7 +575,8 @@ mark {
 }
 
 .text-left {
-    text-align: left
+    text-align: left;
+    padding: 0 10px 0 0;
 }
 
 .text-right {
@@ -1025,7 +1035,7 @@ pre code {
 .col-lg-12  {
     position: relative;
     min-height: 10px;
-    margin-top: 170px;
+    margin-top: 120px;
     margin-left: -20px;
     padding-left: 15px;
     padding-right: 15px
@@ -1451,13 +1461,14 @@ pre code {
         width: 41.66667%
     }
     .col-md-6 {
-        width: 50%
+        width: 50%;
     }
     .col-md-7 {
         width: 58.33333%
     }
     .col-md-8 {
-        width: 66.66667%
+        width: 66.66667%;
+        margin-bottom: -35px;
     }
     .col-md-9 {
         width: 75%
@@ -5598,7 +5609,7 @@ button.close {
 }
 
 .section-container2 {
-    padding: 40px 0
+    padding: 0px
 }
 
 .section-container-spacer {
